@@ -190,7 +190,7 @@ prepare()
 
 select_toolchain()
 {
-	local absolute_path
+	
 
 	if grep  -q '^CONFIG_ARM64=y' ${OUTDIR}/.config ; then
 		if [ -d ${TOOLCHAIN_ARM64} ]; then
